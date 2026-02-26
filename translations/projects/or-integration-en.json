@@ -1,0 +1,57 @@
+{
+  "slug": "or-integration",
+  "tags": ["MedTech", "Reverse Engineering", "Technical UI", "Design Systems"],
+  "hero": {
+    "title": "The invisible backend",
+    "subtitle": "Documenting and modernizing a legacy O.R. system"
+  },
+  "challenge": {
+    "heading": "THE CHALLENGE",
+    "text": "A critical operating room integration system (controlling cameras and displays during surgery) required a full backend code rewrite. However, zero documentation existed, and the codebase was too fragile to touch without a visual reference.",
+    "zeroDocumentation": "zero documentation existed"
+  },
+  "myRole": {
+    "heading": "MY ROLE",
+    "text": "I was tasked with reconstructing the system's entire UI and logic from scratch to provide the engineering team with a \"Source of Truth,\" followed by designing a new, complex Admin Configuration Panel."
+  },
+  "outcome": {
+    "heading": "THE OUTCOME",
+    "text": "I delivered a pixel-perfect functional replica of the system (reverse-engineered from video footage) and a new, error-proof admin interface, enabling the development team to successfully refactor the platform."
+  },
+  "phase1": {
+    "number": "01",
+    "title": "Phase 1 - the excavation (reverse engineering)",
+    "frictionTitle": "The friction",
+    "frictionText": "The developers needed to modernize the tech stack, but they didn't know the full scope of the existing UI states. There was no access to the live environment—only a marketing video and sales demos.",
+    "solutionTitle": "The solution",
+    "solutionIntro": "I conducted a frame-by-frame visual audit of the available footage to map the system.",
+    "reconstruction": "Reconstruction -",
+    "reconstructionText": "I built a comprehensive Figma library that mirrored the live system 1:1.",
+    "value": "The value -",
+    "valueText": "This turned \"guesswork\" into a documented specification. Developers used my Figma files as the blueprint for the rewrite, ensuring no feature was lost in the migration."
+  },
+  "phase2": {
+    "number": "02",
+    "title": "Phase 2 - the admin panel (designing for technicians)",
+    "challengeTitle": "The challenge",
+    "challengeText": "I was tasked with designing a new \"Settings & Configuration\" panel for hospital technicians. This interface was data-dense and technically complex.",
+    "uxStrategyTitle": "The UX strategy (cognitive load management)",
+    "uxStrategyIntro": "Technicians working in O.R. environments cannot afford mistakes. I applied error prevention principles (Nielsen's Heuristics) to the form design:",
+    "errorPrevention": "error prevention",
+    "constraint": "Constraint vs. freedom -",
+    "constraintText": "I replaced open text inputs with sliders and steppers for numerical values.",
+    "why": "Why? -",
+    "whyText": "This physically prevented users from entering invalid data (e.g., entering \"200\" for a value capped at \"100\"), reducing configuration errors and support calls."
+  },
+  "phase3": {
+    "number": "03",
+    "title": "Phase 3 - the handoff and micro-interactions as specs",
+    "intro": "Since this was a hardware-integrated system, timing mattered.",
+    "precisionSpecs": "Precision specs -",
+    "precisionSpecsText": "I didn't just hand off static screens. I defined the logic of micro-interactions (e.g., ",
+    "precisionSpecsExample": "\"The status indicator must blink at 500ms intervals for 3 seconds upon connection failure\"",
+    "precisionSpecsEnd": ").",
+    "collaboration": "Collaboration -",
+    "collaborationText": "This level of detail bridged the gap between Design and Engineering, removing ambiguity for the developers implementing the hardware feedback loops."
+  }
+}

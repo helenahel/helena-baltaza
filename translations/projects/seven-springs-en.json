@@ -1,0 +1,53 @@
+{
+  "slug": "seven-springs",
+  "tags": ["Web Design", "Stakeholder Management", "Rapid Prototyping"],
+  "hero": {
+    "title": "Managing scope creep in a 0-to-1 launch",
+    "subtitle": "Seven Springs Retreat — bridging vision and execution"
+  },
+  "challenge": {
+    "heading": "THE CHALLENGE",
+    "text": "Two founders launching a luxury wellness brand with no digital presence, undefined requirements, and a volatile vision."
+  },
+  "myRole": {
+    "heading": "MY ROLE",
+    "text": "Lead designer & Project manager. I acted as the bridge between non-technical stakeholders and the development team."
+  },
+  "outcome": {
+    "heading": "THE OUTCOME",
+    "text": "I established a strict design-to-development protocol to control scope creep, successfully launching a responsive booking platform that enabled the client to host their first international retreat."
+  },
+  "section1": {
+    "number": "01",
+    "title": "Managing the idea loop",
+    "frictionTitle": "The friction",
+    "frictionText": "The stakeholders were first-time founders with a constantly shifting vision. This resulted in \"Scope Creep,\" where features were requested, built, and rejected in days, wasting valuable development time.",
+    "pivotTitle": "The pivot",
+    "pivotIntro": "I realized the lack of process was hurting the product. I implemented a \"design freeze\" protocol:",
+    "ruleLabel": "The rule - ",
+    "ruleText": "No code is written until the Figma prototype is signed off.",
+    "resultLabel": "The result - ",
+    "resultText": "This stopped the \"churn\" in development. By forcing stakeholders to make decisions in the low-fidelity phase (Figma) rather than the high-fidelity phase (Code), I saved the project estimated weeks of refactoring time."
+  },
+  "section2": {
+    "number": "02",
+    "title": "UX strategy - advocacy vs. implementation",
+    "conflictTitle": "The conflict",
+    "conflictText": "The client pushed for aggressive sales tactics (dark patterns like fake urgency counters).",
+    "standTitle": "My stand",
+    "standText": "I advocated for transparent, trust-based design, warning that high-pressure tactics often backfire with luxury demographics. While the client ultimately overruled some decisions (business constraints), I ensured the core booking flow remained functional and accessible."
+  },
+  "section3": {
+    "number": "03",
+    "title": "The process - iterative prototyping",
+    "visualizingTitle": "Visualizing the intangible",
+    "visualizingIntro": "Since the clients struggled to articulate their needs verbally (\"Make it pop,\" \"Change this again\"), I moved to rapid interactive prototyping.",
+    "point1": "Instead of static screens, I presented clickable flows.",
+    "point2": "This reduced misinterpretation and forced the clients to \"feel\" the bad decisions they requested before we committed them to code."
+  },
+  "section4": {
+    "number": "04",
+    "title": "The outcome",
+    "outcomeText": "Despite the volatility, we shipped a fully responsive web platform on time. The site successfully processed the intake for the inaugural retreat, allowing the founders to execute their proof-of-concept event in Bali."
+  }
+}

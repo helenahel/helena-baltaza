@@ -1,0 +1,100 @@
+{
+  "navbar": {
+    "name": "Helena Baltaza",
+    "role": "UX Designer",
+    "projects": "Projects",
+    "about": "About",
+    "cv": "CV"
+  },
+  "hero": {
+    "label": "Helena Baltaza",
+    "intro_part1": "I'm a",
+    "intro_role": "UX Designer",
+    "intro_part2": "combining my",
+    "intro_background": "Psychology and Computer Science",
+    "intro_part3": "background to build complex",
+    "intro_solutions": "HealthTech solutions",
+    "intro_part4": ". My recent work includes the 0-to-1 launch of a comprehensive medical ecosystem, successfully digitizing analog workflows",
+    "intro_clients": "for premium healthcare clients",
+    "intro_part5": "."
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "explore": "Explore",
+    "longevityPassport": {
+      "title": "Longevity Passport",
+      "description": "A comprehensive mobile and web platform for a premium preventative medicine clinic, that digitizes the entire patient lifecycle\u2009—\u2009from secure file transfer to daily lifestyle tracking.\n\nDesigned to turn complex medical data into actionable, easy-to-understand insights.",
+      "industry": "Industry",
+      "industryChips": ["HealthTech"],
+      "type": "Type",
+      "typeChips": ["B2B & B2C"],
+      "platform": "Platform",
+      "platformChips": ["Mobile & Web App"],
+      "keyFocus": "Key focus",
+      "keyFocusChips": ["Data Visualization", "Security", "Service Design"]
+    },
+    "sevenSprings": {
+      "title": "Seven Springs Website",
+      "description": "A responsive web and booking platform for a luxury wellness startup, designed to translate an evolving brand vision into a structured digital product.\n\nFocused on rapid prototyping to align stakeholders and protect development resources during a volatile 0-to-1 launch.",
+      "industry": "Industry",
+      "industryChips": ["Wellness & Hospitality"],
+      "type": "Type",
+      "typeChips": ["B2C (Web)"],
+      "platform": "Platform",
+      "platformChips": ["Responsive Website"],
+      "keyFocus": "Key focus",
+      "keyFocusChips": [
+        "Rapid Prototyping",
+        "Stakeholder Management",
+        "Web Design"
+      ]
+    },
+    "orIntegration": {
+      "title": "O.R. Integration System",
+      "description": "A mission-critical interface for surgical environments, reverse-engineered from a legacy system with zero existing documentation.\n\nDesigned to reduce cognitive load for technicians by transforming complex configuration data into an error-proof, modern admin panel.",
+      "industry": "Industry",
+      "industryChips": ["MedTech"],
+      "type": "Type",
+      "typeChips": ["B2B / Enterprise"],
+      "platform": "Platform",
+      "platformChips": ["Desktop & Touch Interface"],
+      "keyFocus": "Key focus",
+      "keyFocusChips": [
+        "Legacy Modernization",
+        "Reverse Engineering",
+        "Complex UI"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "About me",
+    "psychologist": {
+      "title": "My background",
+      "paragraph1_part1": "I hold a dual degree in",
+      "paragraph1_education": "Psychology and Computer Science",
+      "paragraph1_part2": ", a combination that shapes every decision I make as a designer. While the Computer Science background helps me speak the language of developers (and respect their constraints), my Psychology background is the lens through which I view the user.",
+      "paragraph2": "I don't just see \"users\" or \"traffic.\" I see humans with limited working memory, specific cognitive biases, and emotional needs."
+    },
+    "compass": {
+      "title": "From chaos to compass",
+      "paragraph1": "My design philosophy is rooted in my academic thesis: \"From chaos to compass - the architecture of meaning: A case study of the research and design process for a mobile application supporting the pursuit of a satisfying life in alignment with personal values.\" In it, I explored how digital tools can guide people through the noise of daily life toward what actually matters.",
+      "paragraph2_part1": "I have carried this philosophy into my professional career. Whether I am untangling a complex legacy system for a hospital or building a wellness ecosystem from scratch, my goal is always the same:",
+      "paragraph2_goal": "Reduce the chaos. Provide a clear path."
+    },
+    "healthtech": {
+      "title": "Why healthTech?",
+      "paragraph": "I am deeply invested in personal well-being and the mechanics of a satisfactory life. I believe technology has a responsibility to support human health, not drain it. This is why I specialize in HealthTech—building tools that respect the user's time, protect their data, and ultimately help them live better, longer lives."
+    }
+  },
+  "cta": {
+    "text": "Let's build something together!"
+  },
+  "footer": {
+    "name": "Helena Baltaza",
+    "role": "Product Designer | Psychology & CS Background",
+    "tagline": "Based in Warsaw · helena@baltaza.pl",
+    "copyright": "2026",
+    "builtWith": "Built with AI",
+    "thanks": "Thanks for visiting"
+  }
+}

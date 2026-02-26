@@ -1,0 +1,113 @@
+{
+  "slug": "longevity-passport",
+  "tags": ["HealthTech", "B2B/B2C", "Design Systems", "0-to-1"],
+  "hero": {
+    "title": "From analog chaos to digital trust",
+    "subtitle": "Designing a secure medical data ecosystem as a sole designer"
+  },
+  "challenge": {
+    "heading": "THE CHALLENGE",
+    "text": "Longevity Center, a premium holistic clinic, relied on fragmented, analog processes. Patient data was scattered across emails and printed paper, creating security risks and operational inefficiency."
+  },
+  "myRole": {
+    "heading": "MY ROLE",
+    "text": "As the sole Product Designer (working with 1 Dev & 1 CTO), I owned the end-to-end UX for a dual-interface ecosystem: a B2C Patient App and a B2B Admin Portal."
+  },
+  "outcome": {
+    "heading": "THE OUTCOME",
+    "text": "I digitized the entire patient journey—from data ingestion to results visualization—shipping an MVP that secured patient data and standardized clinical operations across multiple locations."
+  },
+  "impact": {
+    "heading": "THE IMPACT",
+    "subheading": "Operational hygiene & risk mitigation",
+    "item1": {
+      "title": "Eliminated \"shadow data\"",
+      "description": "Replaced Excel spreadsheets and email chains with a centralized dashboard."
+    },
+    "item2": {
+      "title": "Reduced human error",
+      "description": "Upload validation prevented staff from forgetting to send results."
+    },
+    "item3": {
+      "title": "Instant delivery",
+      "description": "Shifted lead time from hours/days to instant automated push notifications."
+    }
+  },
+  "section1": {
+    "number": "01",
+    "title": "The problem & business context",
+    "intro": "The business wanted to scale via a White Label model, but operations were unscalable.",
+    "userProblem": {
+      "heading": "USER PROBLEM (CLIENT)",
+      "text": "\"My health history is a mess.\" Patients had results scattered across emails, different clinics, and paper folders. They lacked a centralized source of truth."
+    },
+    "businessProblem": {
+      "heading": "BUSINESS PROBLEM (CLINIC)",
+      "text": "\"We are leaking efficiency.\" Sending sensitive medical results via email was a security risk and a manual burden for staff."
+    },
+    "constraint": {
+      "heading": "THE CONSTRAINT",
+      "text": "I was a \"design team of one\" operating in a lean, high-velocity environment with rapidly shifting executive priorities and zero budget for external research."
+    }
+  },
+  "section2": {
+    "number": "02",
+    "title": "Key decision: the \"trust loop\" (file transfer system)",
+    "frictionTitle": "The friction",
+    "frictionText": "The most critical feature was the delivery of medical results. A failure here meant a breach of trust.",
+    "solutionTitle": "The solution",
+    "solutionIntro": "I designed a synchronized B2B/B2C flow.",
+    "step1": {
+      "title": "Standardization (B2B) - ",
+      "text": "I audited the clinic's analog files and created a standardized naming convention and category system in the Admin panel. This prevented \"mystery files\" from reaching the patient."
+    },
+    "step2": {
+      "title": "Clarity (B2C) - ",
+      "text": "On the patient side, I introduced distinct UI states: Downloading.., Downloaded, New."
+    },
+    "step3": {
+      "title": "Security - ",
+      "text": "We replaced email passwords with a biometric 2FA (FaceID) and OTP login flow. I added a SMS OTP option (to initial Email OTP) after early internal testing showed users struggled with context-switching between apps."
+    }
+  },
+  "section3": {
+    "number": "03",
+    "title": "Architecture: visualizing a lifetime of health",
+    "challengeTitle": "The challenge",
+    "challengeText": "How do you visualize a patient's health history from birth to present day without overwhelming them?",
+    "designTitle": "The design decision (progressive disclosure)",
+    "designIntro": "I rejected a standard \"list view\" in favor of a timeline architecture.",
+    "chunking": {
+      "title": "Chunking - ",
+      "text": "I grouped data by Year → Category → Individual Event."
+    },
+    "cognitiveLoad": {
+      "title": "Cognitive load - ",
+      "text": "Instead of dumping data, I used a \"Tile System\" that provided an at-a-glance status (Completed vs. Recommended vs. Missed)."
+    },
+    "scalability": {
+      "title": "Scalability - ",
+      "text": "This structure allowed us to integrate high-frequency data (Oura/Whoop wearables) alongside static medical documents without breaking the layout."
+    }
+  },
+  "section4": {
+    "number": "04",
+    "title": "Operational efficiency & design system",
+    "realityTitle": "The \"sole designer\" reality",
+    "realityText": "With only one developer, we couldn't afford \"pixel-pushing.\"",
+    "systemTitle": "System over customization",
+    "systemText": "Two changes were made to address this: 1. I built a strict atomic design system in Figma. Every button, input, and card had defined states. 2. All the designs needed to be green lit by stakeholders before moving to development.",
+    "impactLabel": "THE IMPACT",
+    "impactText": "This eliminated \"design drift.\" The developer could reuse code components, reducing frontend build time for new features, without worrying about request for changes from stakeholder in the middle of implementation. ",
+    "reduction": "30-40%",
+    "reductionLabel": "reduction in time spent on task by developer"
+  },
+  "section5": {
+    "number": "05",
+    "title": "Retrospective: navigating ambiguity",
+    "learnedTitle": "What I learned",
+    "learnedText": "Working without direct user access (due to stakeholder constraints) forced me to be creative with validation. I utilized \"Guerilla Testing\" with proxy users (clinic administrative staff) to catch usability issues early.",
+    "iterationTitle": "One key iteration",
+    "iterationText": "During these internal tests, I noticed all users ignored \"some of the functions\" entry points (even after adding clear labels) because for them it looked like a static banner with some quote on it. I redesigned the component to have higher affordance (elevation + clear CTA button, consistent with other buttons in the system), which fixed the click-through issue immediately."
+  }
+}
